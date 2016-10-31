@@ -36,7 +36,11 @@
 }
 
 @font-face {
-	font-family: 'OpenSans-Bold';
+	font-family: 'OSR';
+	src:url('fonts/open-sans/OpenSans-Regular.ttf')format("truetype");
+}
+@font-face {
+	font-family: 'OSB';
 	src:url('fonts/open-sans/OpenSans-Bold.ttf')format("truetype");
 }
 
@@ -1246,18 +1250,23 @@ footer {
 	width: 1086px;
 	outline: 1px solid;
 }
-.about-us-left a {
+.about-us-left li{
+    display: block;
+}
+.about_us{
+    text-align: left;
+}
+.about_us a{
 	color: white;
 	font-family: 'Play-bold';
 	font-size: 24px;
-
 }
-.about-us-left span {
+.about_us span {
 	font-family: 'Play-Regular';
 	font-size: 24px;
 
 }
-.about-us-left a:before{
+.about_us:before{
 	content: '';
 	display:inline-block;
 	background-image: url(images/icons/Icon7.png);
@@ -1271,6 +1280,22 @@ footer {
 	display: inline-block;
 	outline: 1px solid;
 	margin-top: 48px;
+}
+.free_burst img{
+    position: relative;
+    top: 7px;
+}
+.free_burst a{
+    color: #4a6221;
+    font-family: 'Bitsumishi';
+    font-size: 34px;
+}
+.our_focus{
+    font-family: 'OSR';
+    font-size: 15px;
+    text-align: left;
+    color: white;
+  
 }
 .about-us-center{
 	display: inline-block;
@@ -1306,6 +1331,33 @@ footer {
 	vertical-align: middle;
 
 }
+.au_center_text{
+    font-family: 'Play-Bold';
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+}
+.au_center_clock{
+    font-family: 'OSB';
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+    text-align: left;
+    padding-left: 20px;
+}
+.au_center_clock::before{
+    content: '';
+    width: 17px;
+    height: 16px;
+    background: url(images/icons/clock.png);
+    position: absolute;
+    left: 0px;
+    top: 0;
+
+}
+.about-us-right{
+    width: 35%;
+}
 .about-us-right a {
 	color: white;
 	font-family: 'Play-bold';
@@ -1327,4 +1379,24 @@ footer {
 	width: 48px;
 	vertical-align: middle;
 
+}
+.au_right_sq{
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    background-color: #fff;
+    outline: 1px solid;
+    transform: skew(-20deg);
+    margin-right: 20px;
+
+}
+.about-us-right div:last-child {
+    margin-right:0;
+}
+.about-us-right div:nth-child(2){
+    background: #4a6221;
+}
+.follow{
+    text-align: left;
+    padding-left: 18px;
 }
