@@ -1842,7 +1842,14 @@ footer {
         position: static;
         margin-left: 0;
     }
+    .nav {
+        float: right;
+         margin-right: 20px;
 
+    }
+    .nav li:first-child {
+        margin-right: 0px;
+    }
 }
 @media screen and (min-width:656px) and (max-width:1101px) {
     .nav li{
@@ -1911,5 +1918,12 @@ footer {
     .main-news-last {
         padding-left: 10px;
     }
+    .nav {
+        float: right;
+        margin-right: 20px;
   
+    }
+     .nav li:first-child {
+        margin-right: 0px;
+    }
 }
