@@ -42,7 +42,12 @@
     font-style: normal;
 
 }
-
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+}
 
 ul {list-style: none;
 }
