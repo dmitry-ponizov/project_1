@@ -1,6 +1,6 @@
 $('.sl').slick({
 	autoplay: true,
-	autoplaySpeed: 400000000000,
+	autoplaySpeed: 4000,
 	speed:1000,
 	arrows: false,
 	dots:true,
