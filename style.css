@@ -153,16 +153,17 @@ header {
 }
 .head-title h1{
 	font-family: 'Play-bold';
-	font-size: 40px;
-	line-height: 30px;
+    font-size: 40px;
+    margin-top: 26px;
+    margin-bottom: 0;
 
 }
 .head-title h3{
 	font-family: 'Play-Regular';
-	font-size: 30px;
-	line-height: 20px;
-	font-weight: normal;
-	margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 2px;
+    margin-bottom: 68px;
 
 }
 .head-title2 h1{
@@ -197,10 +198,11 @@ header {
     text-align: center;
 }
 .btn{
-    display: inline-block;
+  display: inline-block;
     width: 114px;
+    margin-right: 25px;
     height: 40px;
-    transform:skew(-20deg);
+    transform: skew(-20deg);
     position: relative;
     background: #a1a1a1;
 }
@@ -1110,7 +1112,8 @@ main {
 /*Start Slick config*/
 
 .sl .slick-dots {
-	bottom: 160px;
+    bottom: 131px;
+    right: 28px;
 	
 }
 .sl .slick-dots li button:before {
@@ -1125,6 +1128,7 @@ main {
 .sl .slick-dots li {
 	margin: 0;
 	width: 10px;
+    margin-right: 3px;
 
 }
 .sl .slick-dots button {
@@ -1953,4 +1957,5 @@ footer {
      .nav li:first-child {
         margin-right: 0px;
     }
+
 }
